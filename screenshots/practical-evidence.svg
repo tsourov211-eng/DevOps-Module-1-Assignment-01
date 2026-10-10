@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+<title id="title">DevOps Module 1 practical evidence summary</title>
+<desc id="desc">Summary of local Next.js application verification and ngrok tunnel details transcribed from the assignment screenshots.</desc>
+<rect width="1100" height="760" fill="#f4f7fb"/>
+<rect x="40" y="36" width="1020" height="112" rx="18" fill="#102338"/>
+<text x="72" y="82" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#9ad6ff">DEVOPS ENGINEERING · MODULE 1</text>
+<text x="72" y="119" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#ffffff">Practical Task Evidence Summary</text>
+<rect x="40" y="174" width="495" height="490" rx="16" fill="#ffffff" stroke="#d8e1ec" stroke-width="2"/>
+<rect x="40" y="174" width="495" height="64" rx="16" fill="#e5f4ff"/>
+<rect x="40" y="222" width="495" height="16" fill="#e5f4ff"/>
+<text x="66" y="214" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#123856">Task 1 · Local application</text>
+<text x="66" y="278" font-family="Arial,sans-serif" font-size="16" fill="#5e6e7e">Application</text>
+<text x="66" y="308" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#142b40">Next.js Portfolio Website</text>
+<text x="66" y="353" font-family="Arial,sans-serif" font-size="16" fill="#5e6e7e">Start command</text>
+<rect x="66" y="366" width="443" height="44" rx="8" fill="#101a26"/>
+<text x="84" y="395" font-family="Consolas,monospace" font-size="19" fill="#a7f3b0">pnpm dev</text>
+<text x="66" y="447" font-family="Arial,sans-serif" font-size="16" fill="#5e6e7e">Local address</text>
+<rect x="66" y="460" width="443" height="44" rx="8" fill="#101a26"/>
+<text x="84" y="489" font-family="Consolas,monospace" font-size="19" fill="#8bd4ff">http://localhost:3001</text>
+<text x="66" y="541" font-family="Arial,sans-serif" font-size="16" fill="#5e6e7e">Observed terminal result</text>
+<rect x="66" y="554" width="443" height="72" rx="8" fill="#101a26"/>
+<text x="84" y="582" font-family="Consolas,monospace" font-size="18" fill="#a7f3b0">Ready</text>
+<text x="84" y="608" font-family="Consolas,monospace" font-size="18" fill="#a7f3b0">GET / 200</text>
+<rect x="565" y="174" width="495" height="490" rx="16" fill="#ffffff" stroke="#d8e1ec" stroke-width="2"/>
+<rect x="565" y="174" width="495" height="64" rx="16" fill="#e7f8ec"/>
+<rect x="565" y="222" width="495" height="16" fill="#e7f8ec"/>
+<text x="591" y="214" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#14532d">Task 2 · ngrok tunnel</text>
+<text x="591" y="278" font-family="Arial,sans-serif" font-size="16" fill="#5e6e7e">Command used</text>
+<rect x="591" y="291" width="443" height="44" rx="8" fill="#101a26"/>
+<text x="609" y="320" font-family="Consolas,monospace" font-size="19" fill="#a7f3b0">ngrok http 3001</text>
+<text x="591" y="369" font-family="Arial,sans-serif" font-size="16" fill="#5e6e7e">Public URL recorded in the DOCX</text>
+<rect x="591" y="382" width="443" height="80" rx="8" fill="#101a26"/>
+<text x="609" y="411" font-family="Consolas,monospace" font-size="16" fill="#8bd4ff">https://icing-creasing-</text>
+<text x="609" y="436" font-family="Consolas,monospace" font-size="16" fill="#8bd4ff">coziness.ngrok-free.dev</text>
+<text x="591" y="493" font-family="Arial,sans-serif" font-size="16" fill="#5e6e7e">Recorded tunnel status</text>
+<rect x="591" y="506" width="443" height="44" rx="8" fill="#e7f8ec"/>
+<circle cx="612" cy="528" r="7" fill="#15803d"/>
+<text x="632" y="535" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#14532d">Online · forwarded to localhost:3001</text>
+<text x="591" y="583" font-family="Arial,sans-serif" font-size="15" fill="#5e6e7e">Use case: share the local app for remote review</text>
+<text x="591" y="607" font-family="Arial,sans-serif" font-size="15" fill="#5e6e7e">before production deployment.</text>
+<text x="40" y="710" font-family="Arial,sans-serif" font-size="15" fill="#64748b">Prepared from the practical-task details and screenshots included in the submitted assignment document.</text>
+<text x="40" y="735" font-family="Arial,sans-serif" font-size="14" fill="#64748b">This graphic is a summary, not a substitute for the original screenshots if the evaluator requires raw captures.</text>
+</svg>
