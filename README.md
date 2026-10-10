@@ -4,7 +4,7 @@
 **Course / Batch:** 15  
 **Submission date:** 10 October 2026
 
-This repository contains the answers to all theoretical and scenario-based questions, plus the recorded results for both practical tasks. The demo application was a **Next.js portfolio website**.
+This repository contains the answers to all theoretical and scenario-based questions, plus the recorded results for both practical tasks. The demo application was a **Next.js portfolio website**. [View the portfolio application's source code repository](https://github.com/tsourov211-eng/steve-portfolio-nextjs).
 
 ## Table of Contents
 
@@ -101,8 +101,11 @@ Set up agreed channels for normal work, alerts, and incidents; document channel 
 ### Task 1 — Local DevOps Demo Application
 
 **Application:** Next.js Portfolio Website  
+**Source code repository:** [tsourov211-eng/steve-portfolio-nextjs](https://github.com/tsourov211-eng/steve-portfolio-nextjs)  
 **Local address:** `http://localhost:3001`  
 **Start command:** `pnpm dev`
+
+The application used for this practical task is maintained in the linked portfolio repository above. This assignment repository contains the written answers and screenshot evidence.
 
 **Steps performed**
 
