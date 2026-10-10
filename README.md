@@ -4,15 +4,13 @@
 **Course / Batch:** 15  
 **Submission date:** 10 October 2026
 
-This repository contains my answers to the Module 1 DevOps assignment and screenshots demonstrating the practical tasks. The practical application used was my **Next.js portfolio website**.
+This repository contains the answers to all theoretical and scenario-based questions, plus the recorded results for both practical tasks. The demo application was a **Next.js portfolio website**.
 
 ## Table of Contents
 
 - [Part A — Theoretical Questions](#part-a--theoretical-questions)
 - [Part B — Scenario-Based Questions](#part-b--scenario-based-questions)
 - [Part C — Technical and Practical Tasks](#part-c--technical-and-practical-tasks)
-  - [Task 1 — Local DevOps Demo Application](#task-1--local-devops-demo-application)
-  - [Task 2 — Exposing the Local Application with ngrok](#task-2--exposing-the-local-application-with-ngrok)
 - [Repository Structure](#repository-structure)
 
 ---
@@ -106,7 +104,7 @@ Set up agreed channels for normal work, alerts, and incidents; document channel 
 **Local address:** `http://localhost:3001`  
 **Start command:** `pnpm dev`
 
-#### Steps performed
+**Steps performed**
 
 1. Opened the project in VS Code.
 2. Ran `pnpm dev` in the terminal.
@@ -114,48 +112,31 @@ Set up agreed channels for normal work, alerts, and incidents; document channel 
 4. Opened the URL in a browser and verified that the website loaded correctly.
 5. The terminal displayed `GET / 200`, confirming a successful HTTP response.
 
-#### Evidence
-
-**Browser — application running locally**
-
-![Next.js portfolio running locally on localhost:3001](screenshots/local-app.png)
-
-**Terminal — development server ready and HTTP 200 response**
-
-![Next.js development server log](screenshots/local-terminal.png)
-
-#### How local development helps in DevOps
-
-Running applications locally allows developers to test code, identify bugs, and fix errors before deployment. It also supports automated testing, continuous integration, and safer software delivery. Local testing allows a developer to verify the app and its configuration before deployment, reproduce bugs safely, test health checks, and catch obvious problems early without affecting production. The same local checks can later become automated CI tests.
+**How local development helps in DevOps:** Running applications locally allows developers to test code, identify bugs, and fix errors before deployment. It also supports automated testing, continuous integration, and safer software delivery. Local testing helps verify the app and its configuration, reproduce bugs safely, test health checks, and catch problems early without affecting production. The same local checks can later become automated CI tests.
 
 ### Task 2 — Exposing the Local Application with ngrok
 
 **Tool:** ngrok  
 **Command used:** `ngrok http 3001`  
-**Public URL captured in the assignment evidence:**  
-[https://icing-creasing-coziness.ngrok-free.dev](https://icing-creasing-coziness.ngrok-free.dev)
+**Public URL recorded in the assignment:** [https://icing-creasing-coziness.ngrok-free.dev](https://icing-creasing-coziness.ngrok-free.dev)
 
-> **Note:** This is the URL recorded when the screenshot was captured. ngrok free URLs/sessions may change or stop working when the tunnel is closed; start ngrok again to obtain a current URL if needed.
-
-#### Steps performed
+**Steps performed**
 
 1. Started the Next.js application locally on port 3001.
 2. Used `ngrok http 3001` to expose the application to the internet.
 3. Verified that ngrok showed an online session and generated a public URL.
 
-#### Evidence
+**Real-world use case:** Developers can share locally running applications with clients or teammates for remote testing and feedback before production deployment.
 
-**Browser — portfolio accessed via the ngrok public URL**
+> **URL note:** This is the URL recorded when the evidence was captured. Free ngrok URLs or sessions may change or stop working when the tunnel is closed; start ngrok again to obtain a current URL if required.
 
-![Next.js portfolio accessed using ngrok](screenshots/ngrok-browser.png)
+### Practical Evidence Summary
 
-**Terminal — ngrok session and forwarding details**
+The following graphic summarizes the local server output and ngrok tunnel details transcribed from the submitted assignment. It is a summary graphic, not a raw screenshot capture.
 
-![ngrok online session and HTTP requests](screenshots/ngrok-terminal.png)
+![Practical task evidence summary](screenshots/practical-evidence.svg)
 
-#### Real-world use case
-
-Developers can share locally running applications with clients or teammates for remote testing and feedback before production deployment.
+**Important submission note:** The assignment guideline asks for original screenshots inside the repository. The source screenshots are present in the submitted DOCX but could not be transferred as original image files through the available GitHub file action. Upload the original screenshots from the DOCX to this repository if your evaluator strictly requires raw screenshots.
 
 ---
 
@@ -165,10 +146,7 @@ Developers can share locally running applications with clients or teammates for 
 DevOps-Module-1-Assignment-01/
 ├── README.md
 └── screenshots/
-    ├── local-app.png
-    ├── local-terminal.png
-    ├── ngrok-browser.png
-    └── ngrok-terminal.png
+    └── practical-evidence.svg
 ```
 
-All assignment answers and practical evidence are documented in this repository, as required by the submission guideline.
+All theoretical and scenario-based answers, plus the recorded results for both practical tasks, are documented in this README.
