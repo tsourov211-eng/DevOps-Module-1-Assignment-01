@@ -130,13 +130,25 @@ Set up agreed channels for normal work, alerts, and incidents; document channel 
 
 > **URL note:** This is the URL recorded when the evidence was captured. Free ngrok URLs or sessions may change or stop working when the tunnel is closed; start ngrok again to obtain a current URL if required.
 
-### Practical Evidence Summary
+### Task 1 Evidence — Local Application
 
-The following graphic summarizes the local server output and ngrok tunnel details transcribed from the submitted assignment. It is a summary graphic, not a raw screenshot capture.
+**Browser: Next.js portfolio running at localhost:3001**
 
-![Practical task evidence summary](screenshots/practical-evidence.svg)
+![Local application in browser](screenshots/localhost001.png)
 
-**Important submission note:** The assignment guideline asks for original screenshots inside the repository. The source screenshots are present in the submitted DOCX but could not be transferred as original image files through the available GitHub file action. Upload the original screenshots from the DOCX to this repository if your evaluator strictly requires raw screenshots.
+**Terminal: development server output and successful HTTP response**
+
+![Local application terminal output](screenshots/localhost002.png)
+
+### Task 2 Evidence — ngrok Public Tunnel
+
+**Browser: portfolio opened through the ngrok public URL**
+
+![Application through ngrok](screenshots/ngrok001.png)
+
+**Terminal: ngrok session, forwarding address, and HTTP requests**
+
+![ngrok tunnel terminal output](screenshots/ngrok002.png)
 
 ---
 
@@ -146,7 +158,11 @@ The following graphic summarizes the local server output and ngrok tunnel detail
 DevOps-Module-1-Assignment-01/
 ├── README.md
 └── screenshots/
+    ├── localhost001.png
+    ├── localhost002.png
+    ├── ngrok001.png
+    ├── ngrok002.png
     └── practical-evidence.svg
 ```
 
-All theoretical and scenario-based answers, plus the recorded results for both practical tasks, are documented in this README.
+All theoretical answers, scenario responses, and practical-task screenshot evidence are included in this repository.
