@@ -1,4 +1,4 @@
-# DevOps Engineering — Module 1 Assignment
+# DevOps Engineering - Module 1 Assignment
 
 **Student:** Tanvr Ahammed Sourov  
 **Course / Batch:** 15  
