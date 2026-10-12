@@ -15,7 +15,7 @@ This repository contains the answers to all theoretical and scenario-based quest
 
 ---
 
-## Part A — Theoretical Questions
+## Part A - Theoretical Questions
 
 ### A1. What is DevOps Engineering, and how does it differ from traditional development and operations?
 
